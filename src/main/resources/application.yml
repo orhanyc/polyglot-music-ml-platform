@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+spring:
+  application:
+    name: polyglot-music-ml-platform
+
+music:
+  model-version: hybrid-native-v1
+  candidate-limit: 200
+  cache-seconds: 120
+  native-ranking-enabled: true
+

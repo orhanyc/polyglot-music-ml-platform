@@ -1,0 +1,6 @@
+runtime: java21
+entrypoint: java -Djava.library.path=./native/build -jar build/libs/polyglot-music-ml-platform-0.1.0.jar
+
+env_variables:
+  MUSIC_REGION: us
+
